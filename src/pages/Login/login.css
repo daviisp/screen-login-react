@@ -1,86 +1,83 @@
 .login {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 90px;
-   height: 100vh;
-   width: 100vw;
-   color: #fff;
-   background-color: #212125;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  background-color: #212125;
 }
 
 .login-right {
-    background-color: #1a1a1d;
-    border-radius: 8px;
-    padding: 30px;
+  background-color: #1a1a1d;
+  border-radius: 8px;
+  padding: 30px;
 }
 
 .login-right h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .login-right h4 {
-    font-weight: 500;
-    margin-top: 40px;
-    font-size: 16px;
-    color: #e1e1e6;
-    text-align: center;
+  font-weight: 500;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #e1e1e6;
+  text-align: center;
 }
 
 .login-right .input-email {
-    display: flex;
-    align-items: center;
-    color: #808080;
-    background-color: #1a1a1d;
-    border-radius: 8px;
-    padding: 3px;
-    height: 50px;
-    margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  color: #808080;
+  background-color: #1a1a1d;
+  border-radius: 8px;
+  padding: 3px;
+  height: 50px;
+  margin-bottom: 25px;
 }
 
-.login-right .input-email input, 
+.login-right .input-email input,
 .login-right .input-password input {
-    background-color: transparent;
-    width: 100%;
-    outline: none;
-    color: #fff;
-    border: none;
-    font-size: 17px;
-    margin-left: 10px;
- 
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
 }
 
 .login-right .input-password {
-    display: flex;
-    align-items: center;
-    color: #808080;
-    background-color: #1a1a1d;
-    border-radius: 8px;
-    padding: 3px;
-    height: 50px;
+  display: flex;
+  align-items: center;
+  color: #808080;
+  background-color: #1a1a1d;
+  border-radius: 8px;
+  padding: 3px;
+  height: 50px;
 }
 
 .login-right button {
-    background-color: #45454d23;
-    color: #fff;
-    font-weight: 700;
-    height: 50px;
-    border-radius: 8px;
-    font-size: 18px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    margin: 15px auto;
-    padding: 15px 20px;
-    border: none;
-    transition: .5s;
-    
+  background-color: #45454d23;
+  color: #fff;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  padding: 15px 20px;
+  border: none;
+  transition: 0.5s;
 }
 .login-right button:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: #49494e;
-
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #49494e;
 }
